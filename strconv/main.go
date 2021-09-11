@@ -17,4 +17,7 @@ func main() {
 
 	m, _ := strconv.ParseInt(str, 10, 64)
 	fmt.Println(m)
+
+	n := 9000
+	fmt.Printf("value %s, type is %T \n", strconv.Itoa(n), strconv.Itoa(n))
 }
