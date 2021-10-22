@@ -33,4 +33,7 @@ func main() {
 	x = 200
 	ok := atomic.CompareAndSwapInt64(&x, 200, 100)
 	fmt.Println(ok, x)
+
+	ok := atomic.CompareAndSwapInt64(&, 200, 100)
+	fmt.Println(ok, x)
 }
